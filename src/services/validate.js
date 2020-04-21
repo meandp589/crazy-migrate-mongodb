@@ -68,7 +68,7 @@ exports.validateFunction = body => {
     }
 };
 
-exports.validateMigationDb = body => {
+exports.validateMigrateDB = body => {
     let schema = {
       type: "object",
       required:  ['collectionName','schemaVersion'],

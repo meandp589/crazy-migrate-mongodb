@@ -16,7 +16,7 @@ crazyMigrate.init( { url: 'mongodb://127.0.0.1:27017' ,databaseName:'database-na
 ## Getting started
 ````bash
 // ...
-crazyMigrate.migratedb({ collectionName: 'collection-name-1', schemaVersion: 2, enable: true  }).add({
+crazyMigrate.migrateDB({ collectionName: 'collection-name-1', schemaVersion: 2, enable: true  }).add({
     schemaVersion: 1,
     up: function(data) {
         firstName = data.firstName || ''

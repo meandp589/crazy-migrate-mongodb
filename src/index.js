@@ -12,15 +12,15 @@ module.exports.init = (mongoConfig) => {
     mConnect = mongoConnect(mongodb)
 }
 
-module.exports.migationdb = ({ collectionName, schemaVersion, enable = true }) => {
+module.exports.migrateDB = ({ collectionName, schemaVersion, enable = true }) => {
     if(!mConnect) {
         throw Error("Mongo Config not found.") 
     }
     let isMigrated = false 
     let isArrived = false
-    let validateMigationDb = validate.validateMigationDb({collectionName, schemaVersion})
-    if(validateMigationDb) {
-        throw Error(validateMigationDb)
+    let validateMigrateDB = validate.validateMigrateDB({collectionName, schemaVersion})
+    if(validateMigrateDB) {
+        throw Error(validateMigrateDB)
     }
     return {
         add: function(migration) {
