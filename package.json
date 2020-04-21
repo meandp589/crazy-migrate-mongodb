@@ -1,0 +1,20 @@
+{
+  "name": "migrate-mongodb",
+  "version": "1.0.0",
+  "description": "migrate mongodb",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["migrate mongodb", "migrate"],
+  "author": "Mean",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "mongodb": "^3.5.6"
+  },
+  "devDependencies": {
+    "ajv": "^6.12.2",
+    "mongodb": "^3.5.6"
+  }
+}
