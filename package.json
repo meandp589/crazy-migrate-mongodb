@@ -1,6 +1,6 @@
 {
-  "name": "crazy-migrate-mongodb",
-  "version": "1.0.3",
+  "name": "srinual-migrate-mongodb",
+  "version": "1.0.0",
   "description": "migrate mongodb",
   "main": "src/index.js",
   "scripts": {
@@ -15,10 +15,10 @@
   },
   "repository": { 
     "type": "git",
-    "url": "https://github.com/meandp589/crazy-migrate-mongodb"
+    "url": "https://github.com/meandp589/srinual-migrate-mongodb"
   },
   "bugs": {
-    "url": "https://github.com/meandp589/crazy-migrate-mongodb/issues"
+    "url": "https://github.com/meandp589/srinual-migrate-mongodb/issues"
   },
   "devDependencies": {
     "ajv": "^6.12.2",

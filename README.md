@@ -1,22 +1,22 @@
-# crazy-migrate-mongodb
+# srinual-migrate-mongodb
 A database migration tool for MongoDB in Node.js. 
 
 ## Installation
 ````bash
-$ npm install crazy-migrate-mongodb --save
+$ npm install srinual-migrate-mongodb --save
 ````
 
 ## Init with config (call once)
 ````bash
 // Node.js require:
-const crazyMigrate = require('crazy-migrate-mongodb')
-crazyMigrate.init( { url: 'mongodb://127.0.0.1:27017' ,databaseName:'database-name', options: { useUnifiedTopology: true }  } )
+const srinualMigrate = require('srinual-migrate-mongodb')
+srinualMigrate.init( { url: 'mongodb://127.0.0.1:27017' ,databaseName:'database-name', options: { useUnifiedTopology: true }  } )
 ````
 
 ## Getting started
 ````bash
 // ...
-crazyMigrate.migrateDB({ collectionName: 'collection-name-1', schemaVersion: 2, enable: true  }).add({
+srinualMigrate.migrateDB({ collectionName: 'collection-name-1', schemaVersion: 2, enable: true  }).add({
     schemaVersion: 1,
     up: function(data) {
         firstName = data.firstName || ''
