@@ -1,6 +1,6 @@
 {
   "name": "crazy-migrate-mongodb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "migrate mongodb",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": ["migrate mongodb", "migration mongodb"],
   "author": "Mean",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ajv": "^6.12.2",
     "mongodb": "^3.5.6"
