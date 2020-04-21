@@ -1,5 +1,5 @@
 {
-  "name": "migrate-mongodb",
+  "name": "crazy-migrate-mongodb",
   "version": "1.0.0",
   "description": "migrate mongodb",
   "main": "src/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": { 
     "type": "git",
-    "url": "https://github.com/meandp589/migrate-mongodb"
+    "url": "https://github.com/meandp589/crazy-migrate-mongodb"
   },
   "devDependencies": {
     "ajv": "^6.12.2",
