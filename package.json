@@ -17,6 +17,9 @@
     "type": "git",
     "url": "https://github.com/meandp589/crazy-migrate-mongodb"
   },
+  "bugs": {
+    "url": "https://github.com/meandp589/crazy-migrate-mongodb/issues"
+  },
   "devDependencies": {
     "ajv": "^6.12.2",
     "mongodb": "^3.5.6"
