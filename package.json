@@ -1,6 +1,6 @@
 {
   "name": "srinual-migrate-mongodb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "migrate mongodb",
   "main": "src/index.js",
   "scripts": {

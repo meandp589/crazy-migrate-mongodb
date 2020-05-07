@@ -24,8 +24,7 @@ exports.validateMongodbUrl = body => {
       additionalProperties: false,
       properties: {
             url: { 
-                type: "string",
-                pattern: '^mongodb:\/\/(.+):[0-9]*'
+                type: "string"
             },
             databaseName: { 
                 type: "string",
